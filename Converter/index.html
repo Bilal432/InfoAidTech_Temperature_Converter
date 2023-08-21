@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Temperatue Converter</h1>
+    <form id="cal" onsubmit="calculate(); return false">
+     <div class="converter">
+        <div class="inp-div">
+            <input type="number" name="cel" id="inp" class="inp" placeholder="Enter Number">
+
+        </div>
+        <div class="inp-div">
+              <!-- <input type="number" name="fah" id="fah" class="inp"> -->
+              <select name="tem-div" id="tem-div" class="inp">
+                <option value="cel">Celsius</option>
+                <option value="fah">Fahrenheit</option>
+              </select>
+        </div>
+        <div class="res">
+            <input type="" readonly class="inp" id="res">
+        </div>
+        <input type="submit" value="Convert" class="sub inp">
+     </div>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+</html>

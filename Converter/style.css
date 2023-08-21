@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito&family=Poppins&family=Roboto:wght@100;400&family=Ubuntu:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    padding: 120px 100px;
+    background: rgb(239, 227, 206);
+}
+.converter{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: blue;
+    text-align: center;
+    padding: 50px;
+    /* padding: 40px; */
+    /* width: 100%; */
+
+}
+h1{
+    text-align: center;
+    color: blue;
+    margin-bottom: 10px;
+}
+.inp-div{
+    display: inline-block;
+    margin: 0 20px;
+}
+.res{
+    margin-top: 20px;
+}
+.sub{
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+    
+}
+select:hover{
+    background: rgb(32, 35, 126);
+    color: white;
+}
+.sub:hover{
+    background: rgb(32, 35, 126);
+    color: white;
+}
+.inp{
+    padding: 5px 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+input::placeholder{
+    color: rgba(0, 0, 0, 0.235);
+}
